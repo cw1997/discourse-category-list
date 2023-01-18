@@ -17,6 +17,8 @@ export default Component.extend({
       return this.siteSettings.top_menu
         .split("|")
         .any((m) => `discovery.${m}` === currentRouteName);
+    } else if (showOn === "latest") {
+      return currentRouteName === `latest`;
     } else {
       // "all"
       return (
