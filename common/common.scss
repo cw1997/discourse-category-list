@@ -8,7 +8,7 @@ $max-width: 600px;
   }
 }
 
-.search-banner {
+.category-list {
   @if $background-image != "none" {
     background-image: url($background-image);
   } @else {
@@ -22,7 +22,7 @@ $max-width: 600px;
   }
 }
 
-.custom-search-banner-wrap {
+.custom-category-list-wrap {
   box-sizing: border-box;
   position: relative;
   padding: 2.5em 0 3em;
