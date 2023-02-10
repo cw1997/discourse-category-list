@@ -20,7 +20,7 @@ By default this banner appears on all top-level topic pages (latest/new/unread/t
 
 ### Custom styling
 
-The HTML element gets a class named `.display-search-banner` wherever this banner appears, and the banner itself is wrapped with the `.custom-search-banner` class, so with some CSS you should be able to customize the appearance of this banner however you see fit.
+The HTML element gets a class named `.display-category-list` wherever this banner appears, and the banner itself is wrapped with the `.custom-search-banner` class, so with some CSS you should be able to customize the appearance of this banner however you see fit.
 
 ### Future enhancements
 
